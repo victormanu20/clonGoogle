@@ -1,0 +1,236 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+li {
+    list-style: none; 
+ }
+ body{
+    width: 100%;
+    height: 100vh;
+ }
+:root {
+    --letter-header:1.3rem;
+    --letter-section:1.4rem;
+}
+
+.header-main {
+    display: flex;
+    justify-content: flex-end;
+    padding: 6px;
+}
+
+.header-main__container-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 4px;
+}
+.container-list__item{
+    margin-right: 14px;
+
+}
+.container-list__item a{
+    text-decoration: none;
+    font-size: var(--letter-header);
+}
+
+.container-list__item a:hover{
+    text-decoration:underline;
+}
+.img-aplicaciones{
+    width: 40px;
+    height: 40px;
+    padding: 12px;
+    border-radius: 50%;
+}
+.img-aplicaciones img{
+    width: 100%;
+    height: 100%;
+}
+
+.img-aplicaciones:hover{
+    cursor: pointer;
+    background-color:gainsboro ;
+    
+}
+
+.img-user{
+    width: 40px;
+    height: 40px;
+    padding: 4px;
+    border-radius: 50%;
+    margin-right:0;
+}
+.img-user:hover{
+    cursor: pointer;
+    background-color:gainsboro ;
+}
+
+.img-user img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.section-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.section-main__figure{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 100%;
+    height: 150px;
+}
+
+.figure-main__gif{
+    width: 375px;
+    height: 150px;
+}
+
+.figure-main__share{
+    width: 24px;
+    height: 24px;
+    margin:0 0 20px 8px;
+}
+
+.section-main__container-primary{
+    width: 100%;
+    height: 160px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-main__container-search{
+    display: flex;
+    height: 44px;
+    width: 584px;
+    border: 1px solid #dfe1e5;
+    border-radius: 60px;
+    padding: 5px 8px 0 14px;
+    justify-content: space-between;
+}
+.container-search__img-search{
+    width: 33px;
+    height: 44px;
+    padding-right: 13px;
+    display: flex;
+    align-items: center;
+    margin-top: -5px;
+}
+.container-search__img-search img{
+    width: 20px;
+    height: 20px;
+
+}
+.container-search__input{
+    border: none;
+    width: 487px;
+    height: 34px;
+    outline: none;
+    font-size: 1.6rem;
+}
+.container-search__img-microphone{
+    display: flex;
+    width: 40px;
+    height: 44px;
+    padding: 0 8px;
+    margin: -5px;
+    align-items:center ;
+
+}
+.container-search__img-microphone img{
+    width: 21px;
+    height: 21px;
+    padding: 0 4px;
+
+}
+
+.section-main__container-search:hover{
+    box-shadow:0px 0px 2px 2px #dfe1e5;
+}
+
+.container-search__img-microphone:hover{
+    cursor: pointer;
+}
+.section-main__container-button{   
+    display: flex;
+    height: 88px;
+    width: 584px;
+    padding-top: 18px;
+    justify-content: center;
+}
+.button-main{
+    background-color: transparent;
+    border: none;
+    font-size: var(--letter-section);
+    padding: 0 16px;
+    margin: 4px 11px;
+}
+.button-main:hover{
+    cursor: pointer;
+    border: 2px solid #dfe1e5;
+}
+.button-main.primary{
+    height: 36px;
+    width: 153px;
+}
+.button-main.secundary{
+    height: 36px;
+    width: 167px;
+}
+
+.section-main__region{
+    width: 100%;
+    height: 52px;
+    text-align: center;
+    font-size: var(--letter-header);
+}
+
+.footer-main{
+    position: absolute;
+    box-sizing: border-box;
+    width: 100%;
+    bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_region{
+    padding: 15px 30px;
+    font-size:  1.5rem;
+    color: #70757a;
+}
+
+.footer__container-contact{
+    padding: 10px 20px 0 20px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid #dadce0;
+}
+.cotainer-contact__item{
+display: inline-block;
+}
+.cotainer-contact__item a{
+    font-size: 1.4rem;
+    color:#70757a;
+    text-decoration:none;
+    padding: 15px;
+}
+
+.cotainer-contact__item a:hover{
+    text-decoration: underline;
+}
